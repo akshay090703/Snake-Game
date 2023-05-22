@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 10;
+    padding: 10;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 404px;
+    height: 402px;
+    border: solid 2px black;
+    margin: 0 auto;
+}
+.heading{
+    margin: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: cadetblue;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+}
+
+.grid div {
+    padding: 0;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    /* background-color: red; */
+    /* border: 0.5px solid black; */
+}
+
+.snake {
+    background-color: cadetblue;
+}
+
+.apple::before {
+    content: '🍎';
+    font-size: 25px;
+    /* background-color: aqua; */
+}
